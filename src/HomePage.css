@@ -1,0 +1,174 @@
+/* Style for Hero Section */
+.hero {
+    background-color: #F8F8F8;
+    color: #333333;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+  }
+
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero button {
+    background-color: #FF9800;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .hero button:hover {
+    background-color: #FFFFFF;
+    color: #FF9800;
+    border: 1px solid #FF9800;
+  }
+
+  /* Style for Menu Section */
+  .menu {
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+  }
+
+  .menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .menu li {
+    list-style: none;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    padding: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .menu li:hover {
+    border-color: #FF9800;
+  }
+
+  .menu img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .menu h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .menu p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* Style for About Section */
+  .about {
+    background-color: #F8F8F8;
+    color: #333333;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 3rem;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about button {
+    background-color: #FF9800;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .about button:hover {
+    background-color: #FFFFFF;
+    color: #FF9800;
+    border: 1px solid #FF9800;
+  }
+
+  /* Style for Testimonials Section */
+  .testimonials {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+
+  .testimonials-heading {
+    font-size: 32px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .testimonials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .testimonials-list li {
+    flex-basis: 350px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonials-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .testimonials-quote {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .testimonials-name {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    text-transform: uppercase;
+  }
